@@ -4,22 +4,24 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Remi</title>
-<meta name="description" content="Remi — iPhone uygulaması. Destek ve iletişim / Support and contact.">
+<meta name="description" content="Remi — Destek / Support / Assistance / Soporte">
 <link rel="stylesheet" href="style.css">
-<noscript><style>html[lang=tr] [lang=en]{display:block!important}button.lang{display:none}</style></noscript>
 </head>
 <body>
 <div class="wrap">
 <nav>
   <a class="brand" href="index.html">Remi</a>
   <div class="links">
-    <a href="index.html" aria-current="page"><span lang="tr">Destek</span><span lang="en">Support</span></a>
-    <a href="privacy.html"><span lang="tr">Gizlilik</span><span lang="en">Privacy</span></a>
-    <button class="lang" id="lang" type="button">English</button>
+    <a href="index.html" aria-current="page"><span data-i="support">Destek</span></a>
+    <a href="privacy.html"><span data-i="privacy">Gizlilik</span></a>
+    <select class="lang" id="lang" aria-label="Language / Dil">
+      <option value="tr">Türkçe</option><option value="en">English</option><option value="de">Deutsch</option><option value="fr">Français</option><option value="es">Español</option>
+    </select>
   </div>
 </nav>
 
 <main>
+
 <div lang="tr">
   <h1>Remi desteği</h1>
   <p class="lead">Remi ile ilgili bir sorun, öneri ya da sorunuz varsa bana doğrudan yazabilirsiniz.</p>
@@ -47,9 +49,51 @@
   <p><strong>Why does Remi ask for location access?</strong><br>Only to show the weather card. An approximate (rounded) version of your location is sent to the Open-Meteo service. See the <a href="privacy.html">Privacy Policy</a> for details.</p>
   <p><strong>Where does the weather data come from?</strong><br><a href="https://open-meteo.com/">Open-Meteo.com</a> (CC BY 4.0).</p>
 </div>
+
+<div lang="de">
+  <h1>Remi-Support</h1>
+  <p class="lead">Wenn Sie ein Problem, einen Vorschlag oder eine Frage zu Remi haben, schreiben Sie mir direkt.</p>
+  <div class="card">
+    <p><strong>Kontakt</strong></p>
+    <p><a href="mailto:nevzatsoydan@gmail.com">nevzatsoydan@gmail.com</a></p>
+    <p class="meta">Ich antworte in der Regel innerhalb weniger Werktage. Wenn Sie Ihr iPhone-Modell, die iOS-Version und die Remi-Version (in Remi unter Einstellungen → Info) angeben, kann ich das Problem schneller lösen.</p>
+  </div>
+  <h2>Häufige Fragen</h2>
+  <p><strong>Verlangt Remi ein Konto?</strong><br>Nein. Remi verlangt weder ein Konto noch Identitäts- oder persönliche Profildaten.</p>
+  <p><strong>Warum fragt Remi nach dem Standort?</strong><br>Nur um die Wetterkarte anzuzeigen. Eine ungefähre (gerundete) Version Ihres Standorts wird an den Dienst Open-Meteo gesendet. Details finden Sie in der <a href="privacy.html">Datenschutzerklärung</a>.</p>
+  <p><strong>Woher stammen die Wetterdaten?</strong><br><a href="https://open-meteo.com/">Open-Meteo.com</a> (CC BY 4.0).</p>
+</div>
+
+<div lang="fr">
+  <h1>Assistance Remi</h1>
+  <p class="lead">Si vous rencontrez un problème, ou avez une suggestion ou une question à propos de Remi, écrivez-moi directement.</p>
+  <div class="card">
+    <p><strong>Contact</strong></p>
+    <p><a href="mailto:nevzatsoydan@gmail.com">nevzatsoydan@gmail.com</a></p>
+    <p class="meta">Je réponds en général sous quelques jours ouvrés. Si vous indiquez votre modèle d’iPhone, votre version d’iOS et la version de Remi (dans Remi : Réglages → À propos), je pourrai résoudre le problème plus vite.</p>
+  </div>
+  <h2>Questions fréquentes</h2>
+  <p><strong>Remi demande-t-il un compte ?</strong><br>Non. Remi ne demande ni compte, ni identité, ni informations de profil personnel.</p>
+  <p><strong>Pourquoi Remi demande-t-il l’accès à la position ?</strong><br>Uniquement pour afficher la carte météo. Une version approximative (arrondie) de votre position est envoyée au service Open-Meteo. Pour plus de détails, consultez la <a href="privacy.html">politique de confidentialité</a>.</p>
+  <p><strong>D’où viennent les données météo ?</strong><br><a href="https://open-meteo.com/">Open-Meteo.com</a> (CC BY 4.0).</p>
+</div>
+
+<div lang="es">
+  <h1>Soporte de Remi</h1>
+  <p class="lead">Si tienes un problema, una sugerencia o una pregunta sobre Remi, escríbeme directamente.</p>
+  <div class="card">
+    <p><strong>Contacto</strong></p>
+    <p><a href="mailto:nevzatsoydan@gmail.com">nevzatsoydan@gmail.com</a></p>
+    <p class="meta">Suelo responder en unos pocos días laborables. Si indicas el modelo de tu iPhone, la versión de iOS y la versión de Remi (en Remi: Ajustes → Acerca de), podré resolver el problema más rápido.</p>
+  </div>
+  <h2>Preguntas frecuentes</h2>
+  <p><strong>¿Remi pide una cuenta?</strong><br>No. Remi no pide cuenta, identidad ni información de perfil personal.</p>
+  <p><strong>¿Por qué Remi pide acceso a la ubicación?</strong><br>Solo para mostrar la tarjeta del tiempo. Una versión aproximada (redondeada) de tu ubicación se envía al servicio Open-Meteo. Consulta la <a href="privacy.html">Política de privacidad</a> para más detalles.</p>
+  <p><strong>¿De dónde vienen los datos meteorológicos?</strong><br><a href="https://open-meteo.com/">Open-Meteo.com</a> (CC BY 4.0).</p>
+</div>
 </main>
 
-<footer>© 2026 Nevzat Soydan. <span lang="tr">Tüm hakları saklıdır.</span><span lang="en">All rights reserved.</span></footer>
+<footer>© 2026 Nevzat Soydan. <span data-i="rights">Tüm hakları saklıdır.</span></footer>
 </div>
 <script src="lang.js"></script>
 </body>
